@@ -1,0 +1,64 @@
+body, div.tooltip {
+	background-color: lightblue;
+}
+h1 {
+	text-align: center;
+	color: darkblue;
+	font-family: sans-serif;
+}
+#mainContainer {
+	text-align: center;
+}
+
+
+#svgchart {
+	background-color: white;
+}
+
+#svgchart text.axisLabel, .smallText {
+	fill: darkblue;
+}
+
+#svgchart .heatPoint.overed {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+#svgchart g.tick text{
+	fill: red;
+	font: 14px sans-serif;
+	text-anchor: end;
+}
+
+#svgchart text.axisLabel {
+	font-size: 18px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 180px;
+  min-height: 70px;
+  padding: 2px;
+  font: 16px sans-serif;
+  border: 1px solid black;
+  border-radius: 8px;
+  pointer-events: none; 
+}
+
+.subtitle {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.legendPointText {
+	font-size: 10px;
+}
+
+#footer {
+  color: black;
+  text-align: center;
+}
+#footer a{
+	color: blue;
+}
